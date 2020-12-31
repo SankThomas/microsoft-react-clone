@@ -6,6 +6,8 @@
 
 - The website will be created using create-react-app. In case you're wondering, the app is still in the preparation phase and create-react-app hasn't been run yet. Check back for updates!
 
+- UPDATE: If you need the setup files, you can download or clone my other repository here [https://github.com/SankThomas/microsoft-clone]
+
 #### Requirements
 
 1. Nodejs installed on your system. Visit [https://nodejs.org] to download and install nodejs on your system.
