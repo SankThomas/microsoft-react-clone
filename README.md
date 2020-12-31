@@ -8,6 +8,8 @@
 
 - UPDATE: If you need the setup files, you can download or clone my other repository here [https://github.com/SankThomas/microsoft-clone]
 
+- YouTube Video: [https://www.youtube.com/watch?v=yrQJFFacVB0]
+
 #### Requirements
 
 1. Nodejs installed on your system. Visit [https://nodejs.org] to download and install nodejs on your system.
