@@ -1,13 +1,95 @@
+.header .logo img {
+  width: 180px;
+}
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul,
+li {
+  list-style-type: none;
+}
+
+.section-2 img {
+  max-width: 100%;
+  width: 500px;
+}
+
+@media (min-width: 640px) {
+  .hero {
+    position: relative;
+    background: url('./images/hero_1600.png') no-repeat center/cover;
+    height: 500px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero .overlay {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .hero .overlay p.text {
+    width: 300px;
+  }
+
+  /* Gamepass */
+  .gamepass-hero {
+    background: url('./images/game_pass_1600.png') no-repeat center/cover;
+  }
+
+  /* This holiday */
+  .this-holiday {
+    background: url('./images/this_holiday_1600.png') no-repeat center/cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .header .menu-btn,
+  .header .cart {
+    display: none;
+  }
+
+  .header .logo {
+    display: flex;
+  }
+
+  .header .logo ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header .logo ul li {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+
+  .header .sign-in ul {
+    display: flex;
+  }
+
+  .header .sign-in ul li {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero .overlay p.text {
+    width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .logo ul,
+  .header .sign-in {
+    display: none;
+  }
 }
