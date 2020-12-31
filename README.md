@@ -8,10 +8,10 @@
 
 #### Requirements
 
-1. Nodejs installed on your system. Visit [nodejs.org] to download and install nodejs on your system.
+1. Nodejs installed on your system. Visit [https://nodejs.org] to download and install nodejs on your system.
 2. Basic understanding of React Hooks, fetching data from an API using React Hooks, and displaying the data.
 3. React Developer Tools chrome extension which you can get by visiting the chrome web store. This will give you 2 extra tabs in your chrome developer tools which will help in debugging.
-4. Tailwindcss CDN. Visit [cdnjs.com], search for 'tailwindcss' and copy the link tag for the minified css.
+4. Tailwindcss CDN. Visit [https://cdnjs.com], search for 'tailwindcss' and copy the link tag for the minified css.
 5. Git installed on your system. Visit [https://git-scm.com] to download and install git.
 
 - Note that you can install tailwindcss in your workspace if you don't want to use the CDN. Visit [https://tailwindcss.com/docs/installation] for a more detailed explanation.
