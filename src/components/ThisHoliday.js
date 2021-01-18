@@ -1,5 +1,5 @@
 import React from 'react'
-import HolidayImg from '../images/this_holiday_539.png'
+import HolidayImg from '../images/homepage/this_holiday_539.png'
 
 const ThisHoliday = () => {
   return (

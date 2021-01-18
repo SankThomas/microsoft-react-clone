@@ -1,5 +1,5 @@
 import React from 'react'
-import showcase from '../images/hero_539.png'
+import showcase from '../images/homepage/hero_539.png'
 // import { FaChevronRight } from 'react-icons/fa'
 
 const Hero = () => {

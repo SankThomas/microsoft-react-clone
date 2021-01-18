@@ -18,10 +18,20 @@ li {
   width: 500px;
 }
 
+.showcase {
+  background: url('./images/microsoft/hero.jpg') no-repeat right/cover;
+  height: 400px;
+}
+
+.showcase .overlay {
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 @media (min-width: 640px) {
   .hero {
     position: relative;
-    background: url('./images/hero_1600.png') no-repeat center/cover;
+    background: url('./images/homepage/hero_1600.png') no-repeat center/cover;
     height: 500px;
   }
 
@@ -41,12 +51,14 @@ li {
 
   /* Gamepass */
   .gamepass-hero {
-    background: url('./images/game_pass_1600.png') no-repeat center/cover;
+    background: url('./images/homepage/game_pass_1600.png') no-repeat
+      center/cover;
   }
 
   /* This holiday */
   .this-holiday {
-    background: url('./images/this_holiday_1600.png') no-repeat center/cover;
+    background: url('./images/homepage/this_holiday_1600.png') no-repeat
+      center/cover;
   }
 }
 

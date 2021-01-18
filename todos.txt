@@ -1,0 +1,13 @@
+1. clone the actual repository
+    - git clone https://github.com/SankThomas/microsoft-react-clone.git
+
+2. clone the setup_files repository
+    - git clone https://github.com/SankThomas/microsoft-clone.git
+
+3. install node_modules
+    - npm install
+
+4. install react-router-dom
+    - npm install react-router-dom
+
+Check the link in the description for when the video starts
