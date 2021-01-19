@@ -13,6 +13,10 @@ import Footer from './components/Footer'
 import Showcase from './pages/microsoft_page/Showcase'
 import LearnMore from './pages/microsoft_page/LearnMore'
 import Video from './pages/microsoft_page/Video'
+import ShowcaseOffice from './pages/office_page/ShowcaseOffice'
+import OfficeGrid from './pages/office_page/OfficeGrid'
+import MsGrid from './pages/office_page/MsGrid'
+import Faqs from './pages/office_page/Faqs'
 
 function App() {
   return (
@@ -32,6 +36,13 @@ function App() {
         <Showcase />
         <Video />
         <LearnMore />
+      </Route>
+      <Route path="/office">
+        <ShowcaseOffice />
+        <MsGrid />
+        <OfficeGrid />
+        <LearnMore />
+        <Faqs />
       </Route>
 
       <Social />

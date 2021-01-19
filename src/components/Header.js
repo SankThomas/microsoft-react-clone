@@ -17,14 +17,18 @@ const Header = () => {
 
       <div className="logo">
         <div>
-          <img src={Logo} alt="Microsoft" />
+          <Link to="/">
+            <img src={Logo} alt="Microsoft" />
+          </Link>
         </div>
 
         <ul>
           <li>
             <Link to="/microsoft-365">Microsoft 365</Link>
           </li>
-          <li>Office</li>
+          <li>
+            <Link to="/office">Office</Link>
+          </li>
           <li>Windows</li>
           <li>Surface</li>
           <li>Xbox</li>

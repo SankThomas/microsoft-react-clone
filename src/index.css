@@ -60,6 +60,23 @@ li {
     background: url('./images/homepage/this_holiday_1600.png') no-repeat
       center/cover;
   }
+
+  .office-showcase {
+    position: relative;
+    background: url('./images/office/hero.jpg') no-repeat center/cover;
+    height: 500px;
+  }
+
+  .office-showcase .showcase-img {
+    display: none;
+  }
+
+  .office-showcase .office-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 500px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -96,6 +113,10 @@ li {
 @media (min-width: 900px) {
   .hero .overlay p.text {
     width: 500px;
+  }
+
+  .office-showcase .office-text {
+    width: 800px;
   }
 }
 
